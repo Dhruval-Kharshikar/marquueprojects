@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssvariables</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    :root{
+        --primary-color:#ffdfdf;
+        --text-color:rgb(255, 255, 255);
+        --para-color:rgb(5, 60, 0);
+        --maza:rgb(255, 183, 0);
+        --coke:rgb(91, 0, 0);
+        --fanta:orange;
+        --sprite:rgb(22, 216, 22);
+    }
+    body{
+        background-color: var(--primary-color);
+    }
+    .parent{
+        margin-top: 50px;
+        text-align: center;
+        /* width: 100%; */
+        width: 500px;
+    }
+    .card{
+        
+        width: 100%;
+        height: auto;
+        background-color: var(--primary-color);
+        border: 2px solid;
+
+        
+        
+        margin-left: 20%;
+    }.card div{
+        border: 2px solid;
+        height: 160px;
+        margin: 30px;
+        background-color: rgb(255, 255, 255);
+        
+
+    }
+    h2{
+        margin-left: 200px;
+    }
+    h3{
+        border-bottom:2px solid ;
+        
+
+    }
+    .maza h3{
+        background-color: var(--maza);
+    }
+    .coke h3{
+        background-color: var(--coke);
+        color: var(--text-color);
+    }
+    .fanta h3{
+        background-color: var(--fanta);
+    }
+    .sprite h3{
+        background-color: var(--sprite);
+    }
+    p{
+        margin-top: 20px;
+        color: var(--para-color);
+    }
+
+</style>
+<body>
+    <!-- 
+    backgrounf color : #eee
+    headin colour -> light gray
+    card color -> #fff 
+    text-color : white
+    paragrph : light green
+    -->
+    <div class="parent">
+        <h2>Cold drinks</h2>
+
+        <div class="card">
+            <div class="maza">
+                <h3>MAZA</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat illum, doloribus nobis consequatur eos sed autem aperiam accusantium quidem quis tempora officiis perspiciatis! Perferendis consequatur tenetur debitis sapiente rem cumque.</p>
+            </div>
+            <div class="coke">
+                <h3>COKE</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat illum, doloribus nobis consequatur eos sed autem aperiam accusantium quidem quis tempora officiis perspiciatis! Perferendis consequatur tenetur debitis sapiente rem cumque.</p>
+            </div>
+            <div class="fanta">
+                <h3>FANTA</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat illum, doloribus nobis consequatur eos sed autem aperiam accusantium quidem quis tempora officiis perspiciatis! Perferendis consequatur tenetur debitis sapiente rem cumque.</p>
+            </div>
+            
+            <div class="sprite">
+                <h3>SPRITE</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat illum, doloribus nobis consequatur eos sed autem aperiam accusantium quidem quis tempora officiis perspiciatis! Perferendis consequatur tenetur debitis sapiente rem cumque.</p>
+            </div>
+            
+
+        </div>
+    </div>
+</body>
+</html>
