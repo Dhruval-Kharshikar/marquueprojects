@@ -54,9 +54,8 @@ header{
     border-radius: 5px;
 }
 p{
-    display: flex;
-    /* align-items: center; */
     font-size: 20px;
+    display: flex;
 }
 .sub-nav{
     display: flex;
@@ -118,17 +117,25 @@ main{
 .rec img{
     width: 210px;
     height: 350px;
-    border: 2px solid;
+    /* border: 2px solid; */
     border-radius: 10px;
 }
 .rec{
     margin: 10px 20px;
+    width: 210px;
+}
+.rec h3{
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 .rec p{
     margin-top: 10px;
-    font-size: 17px;
+    font-size: 16px;
     color:#646464;
+    width: 210px;
+    overflow-wrap:break-word;
+    
 }
 .title a{
     color: crimson;
@@ -158,6 +165,9 @@ footer{
     display: flex;
     align-items: center;
     font-size: 14px;
+}
+.text-list img{
+    margin-right: 15px;
 }
 .text-list p{
     font-size: 16px;margin-left: 20px;
