@@ -98,14 +98,16 @@ main{
     height: 100%;
     background-color: var(--background);
     padding-bottom: 50px;
+    padding:0px 145px;
 }
 .poster{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding-top: 10px;
 }
 .poster img{
     border-radius: 10px;
+    width: 100%;
 }
 
 .recommend{
@@ -116,12 +118,13 @@ main{
 .title{
     display: flex;
     justify-content: space-between;
-    padding: 0px 155px;
+    /* padding: 0px 155px; */
     align-items: flex-end;
 }
 .recommend-cards{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    /* border: 2px solid; */
 }
 .rec img{
     width: 210px;
@@ -130,8 +133,10 @@ main{
     border-radius: 10px;
 }
 .rec{
-    margin: 10px 20px;
+    margin-top: 10px;
+    gap: 30px;
     width: 210px;
+    /* border: 2px solid; */
 }
 .rec h3{
     font-size: 16px;
@@ -153,8 +158,8 @@ main{
 
 .ad img{
     height: auto;
-    width: 1200px;
-    margin: 100px;
+    width: 100%;
+    margin : 100px 0px ;
 }
 .ad{
     display: flex;
