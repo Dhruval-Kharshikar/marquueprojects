@@ -210,7 +210,7 @@ footer{
     gap: 15px;
     margin-top: 50px;
 }
-.icons i{
+.icons svg{
     display: flex;
     align-items: center;
     background-color: var(--icons);
